@@ -2,59 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cynthia Ejike - Web Developer</title>
 
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet" />
 </head>
 
-<body class="bg-pink-100 flex justify-center">
+<body class="bg-pink-100 flex justify-center font-[DynaPuff]">
+  <div class="bg-pink-300 w-[80%] p-10 rounded-xl mt-10">
+    <header class="flex justify-end">
+      <nav class="flex gap-5">
+        <a href="./index.html" class="hover:underline">Home</a>
+        <a href="./about-cynthia.html" class="hover:underline">About</a>
+        <a href="./contact-cynthia.html" class="hover:underline">Contact</a>
+      </nav>
+    </header>
 
-    <div class="bg-pink-300 w-[80%] p-10 rounded-xl mt-10 ">
-        <!--max-md: w-full m-2 mt-5-->
-        <header class="flex justify-end">
-            <nav class="flex gap-5">
-                <a href="">Home</a>
-                <a href="./about cynthia.html">About</a>
-                <a href="./contact cynthia.html">Contact</a>
-            </nav>
-        </header> <br> <br>
+    <main class="mt-10 flex flex-col md:flex-row md:gap-10">
+      <div class="flex-shrink-0">
+        <img src="./my picture(1).jpeg" alt="Cynthia Ejike" class="w-full md:w-[300px] rounded-[25px] object-cover" />
+      </div>
 
-        <div class="me">
-            <img src="./my picture(1).jpeg" class=" mine  md: w-[300px] float-right rounded-[25px] ">
-            <!--w-full mb-[10%]-->
+      <div class="flex-1">
+        <section class="summary mb-5">
+          <h2 class="text-[1.5rem]">Hi, I'm Cynthia Ejike!</h2>
+          <h1 class="text-[2.5rem] mb-5 font-bold">WEB DEVELOPER</h1>
+          <p class="mb-5 leading-[30px]">
+            Cynthia Ejike is a self-taught, ambitious, and diligent frontend web developer with a strong ability to
+            design and build user-friendly websites through clean, well-written, and maintainable code. I am adaptable
+            and quick to learn in fast-paced environments.
+          </p>
+        </section>
+
+        <div class="btnn flex gap-5 mb-5">
+          <a href="./inexx.html" class="bg-pink-100 px-5 py-2 rounded-3xl hover:bg-pink-200">Portfolio</a>
+          <a href="./indyy.html" class="bg-pink-100 px-5 py-2 rounded-3xl hover:bg-pink-200">Resume</a>
         </div>
 
-        <div class="cont ">
-            <!--max-sm: w-full-->
-            <div class="summary">
-                <h2 class="text-[1.5rem]">Hi, I'm Cynthia Ejike!</h2>
-
-                <h1 class="text-[2.5rem] mb-5">WEB DEVELOPER</h1>
-                <p class="mb-5 leading-[30px]">Cynthia Ejike is a self-taught, ambitious and diligent frontend web
-                    developer with a strong ability to design and build user-friendly websites through clean,
-                    well-written and maintainable code. I am adaptable and quick to learn in fast-paced environments.
-                </p>
-            </div>
-
-            <div class="btnn flex justify-around">
-                <button class="bg-pink-100 p-[10px] rounded-3xl"><a href="./inexx.html">Portfolio</a></button> <button
-                    class="bg-pink-100 p-[10px] rounded-3xl"><a href="./indyy.html">Resume</a></button>
-            </div> <br>
-
-            <div class="icons flex gap-[15px]">
-                <a href="https://github.com/"><img src="./github.svg" alt=""></a>
-                <a href="http://linkedin.com/in/cynthia-ejike"><img src="./linkedin.svg" alt=""></a>
-            </div>
-
+        <div class="icons flex gap-[15px]">
+          <a href="https://github.com/" target="_blank">
+            <img src="./github.svg" alt="GitHub Profile" />
+          </a>
+          <a href="http://linkedin.com/in/cynthia-ejike" target="_blank">
+            <img src="./linkedin.svg" alt="LinkedIn Profile" />
+          </a>
         </div>
-    </div>
-
+      </div>
+    </main>
+  </div>
 </body>
 
 </html>
